@@ -1,0 +1,102 @@
+body {
+    height: 100vh;
+    background-color: #201D1E;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 15 px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bigbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.menu {
+    background-color: #2C2D33;
+    height: 98vh;
+    width: 20vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu h1 {
+    font-family:Poppins, sans-serif;
+    color: #fff;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.menu h2 {
+    font-family: Poppins, sans-serif;
+    color: #B4B5BC;
+    margin-bottom: 700px;
+    margin-left: 30px;
+}
+
+.help {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+.help p {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+}
+
+.usuario {
+    background-color: #26282C;
+    height: 7vh;
+    width: 16vw;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+img {
+    margin-top: 8px;
+    margin-left: 8px;
+    width: 60px;
+    height: auto;
+}
+
+.tela {
+    background-color: #471D71 20%;
+    background: linear-gradient(150deg, #93583C 10%, #A48257 20%, #824F3C 25%, #27292D, #1B1414, #101010);
+    width: 78vw;
+    margin-left: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px; 
+    display: flex;
+}
+
+.espaco {
+    background-color: #26282C;
+    padding: 20px;
+    width: 60vw;
+    height: 20vh;
+    border-radius: 40px;
+    margin-bottom: 60px;
+}
+
+.espaco p {
+    color: #989A9E;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: Roboto, sans-serif;
+}
