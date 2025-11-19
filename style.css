@@ -216,7 +216,7 @@ header {
 .usuario {
     background-color: #26282C;
     height: 7vh;
-    width: 15vw;
+    width: 70%;
     margin-bottom: 40px;
     margin-left: 60px;
     border-radius: 20px;
@@ -488,6 +488,13 @@ header {
     filter: invert(70%);
 }
 
+.burber img {
+        display: flex;
+        width: 10px;
+        height: auto;
+        filter: invert(100%);
+    }
+
 footer {
     color: #4C4C4C;
     display: flex;
@@ -496,6 +503,11 @@ footer {
     /* margin-bottom: -850px; mudar isso depois */
     font-family: Roboto, sans-serif;
 }
+
+
+
+
+
 
 /* TABLET */
 @media (max-width: 768px) {
@@ -556,6 +568,7 @@ footer {
 
     .box4 {
         height: 60px;
+        width: 500px;
     }
 
     .box7 {
@@ -582,11 +595,24 @@ footer {
 
     .box2 {
         margin-left: 10px;
-        display: flex;
         margin-left: 10px;
         font-size: 13px;
         align-items: center;
+        width: 400px;
     }
+
+    .box1 {
+        margin-left: 230px;
+    }
+
+    .imagemgerada {
+        margin-left: 140px;
+        width: 50vw;
+        height: auto;
+        margin-bottom: -100px;
+    }
+
+    
 
     footer {
         display: none;
